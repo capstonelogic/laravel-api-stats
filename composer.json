@@ -1,0 +1,28 @@
+{
+    "name": "capstonelogic/laravel-api-stats",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Pavlyshyn",
+            "email": "pavlyshyn.roma@gmail.com",
+            "homepage": "https://github.com/capstonelogic",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CapstoneLogic\\Stats\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CapstoneLogic\\Stats\\StatsServiceProvider"
+            ]
+        }
+    }
+}
